@@ -1,6 +1,6 @@
 "===========================================================================
 "***************************************************************************
-"*                         Lu Yicheng's VIM script                         *
+"*                               VIM script                                *
 "*                               Version 2.0                               *
 "*                                                                         *
 "*                         Last modified : 2020.7.3                        *
@@ -91,10 +91,10 @@ endif
 set nocompatible                                      "\u7981\u7528 Vi \u517c\u5bb9\u6a21\u5f0f
 filetype off                                          "\u7981\u7528\u6587\u4ef6\u7c7b\u578b\u4fa6\u6d4b
 
-set rtp+=/home/soc/zhulx19/.vim/bundle/Vundle.vim
+set rtp+=$home/.vim/bundle/Vundle.vim
 "/usr/share/vim/vim74,/usr/share/vim/vimfiles/after,/home/soc/luyc18/.vim/after
 set rtp-=/usr/share/vim/vimfiles
-let vim_bundle_path = '/home/soc/zhulx19/.vim/bundle/'
+let vim_bundle_path = '$home/.vim/bundle/'
 
 call vundle#begin(vim_bundle_path)
 " alternatively, pass a path where Vundle should install plugins
